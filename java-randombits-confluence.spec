@@ -39,6 +39,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Classes from org.randombits.confluence java package.
 Also contains org.randombits.util classes.
 
+%prep
+
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_javadir}
