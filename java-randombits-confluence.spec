@@ -4,7 +4,6 @@
 #   http://svn.atlassian.com/svn/public/contrib/confluence/libraries/org.randombits.confluence/confluence-support/tags/4.3.2/
 # - split org.randombits.util classes to separata (sub?)package
 
-%include	/usr/lib/rpm/macros.java
 
 %define		srcname		randombits-confluence
 Summary:	org.randombits.confluence java package
